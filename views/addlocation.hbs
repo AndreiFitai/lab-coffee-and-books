@@ -1,0 +1,20 @@
+<div id="map-add"></div>
+<div class="form-container">
+  <form action="/addlocation" method="post">
+    <label>Place name : <input type="text" name="name" id="name"></label>
+    <label>Address: <input type="text" name="address" id="address"></label>
+    <div class="radio">
+      <label>Coffeeshop <input type="radio" name="product" value="coffeeshop" checked></label>
+    </div>
+    <div class="radio">
+      <label>Bookstore <input type="radio" name="product" value="bookstore"></label>
+    </div>
+    <label>Latitude : <input type="text" name="lat" id="lat"></label>
+    <label>Longitude : <input type="text" name="lng" id="lng"></label>
+    <button class="btn btn-primary" id="coord" type='button'>Get coordinates</button>
+    <input class="btn btn-primary" type="submit" id="submit" value="Add new place">
+
+  </form>
+</div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdNcD9BU7yog5qjxk7q3wJSvX0sNuowBU"></script>
+<script src='/javascripts/addlocation.js'></script>

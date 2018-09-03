@@ -1,0 +1,20 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00b7ff; }
+
+#map {
+  height: 800px;
+  width: 100%; }
+
+#map-add {
+  height: 400px;
+  width: 50%;
+  margin: 0 auto; }
+
+.form-container {
+  width: 20%;
+  margin: 50px auto; }
+
+/*# sourceMappingURL=style.css.map */
